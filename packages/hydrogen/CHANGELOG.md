@@ -1,5 +1,17 @@
 # @shopify/hydrogen
 
+## 2024.7.5
+
+### Patch Changes
+
+- useOptimisticCart: optimistically calculate totalQuantity ([#2459](https://github.com/Shopify/hydrogen/pull/2459)) by [@scottdixon](https://github.com/scottdixon)
+
+- createCartHandler supplies updateGiftCardCodes method ([#2298](https://github.com/Shopify/hydrogen/pull/2298)) by [@wizardlyhel](https://github.com/wizardlyhel)
+
+- Introduce a new abstraction for generating sitemap index and child sitemaps. ([#2478](https://github.com/Shopify/hydrogen/pull/2478)) by [@blittle](https://github.com/blittle)
+
+  See the [sitemap example](https://github.com/Shopify/hydrogen/tree/main/examples/sitemap) for how to use it and read the [docs](https://shopify.dev/docs/api/hydrogen/utilities/getSitemapIndex) for more information.
+
 ## 2024.7.4
 
 ### Patch Changes
